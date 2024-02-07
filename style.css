@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+.image-container{
+    display: flex;
+}
+button{
+    min-height: 10px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.dogImage{
+    width: 75%;
+    max-height: 160px;
+}
+
+@media (min-width:641px) {
+    .dogImage{
+        width: 100%;
+        min-height: 350px;
+    }
+}
